@@ -1,6 +1,8 @@
 ---
 title: 'Hello, world'
+
 layout: 'layouts/home.html'
+
 intro:
   eyebrow: 'Digital Marketing is our'
   main: 'Bread & Butter'
@@ -9,6 +11,7 @@ intro:
   buttonUrl: '/work'
   image: '/images/bg/toast.jpg'
   imageAlt: 'Buttered toasted white bread'
+
 primaryCTA:
   title: 'This is an agency that doesn’t actually exist'
   summary: 'This is the project site you build when you take the “Learn
@@ -17,9 +20,8 @@ primaryCTA:
     though. Take the course today!'
   buttonText: 'Buy a copy'
   buttonUrl: 'https://learneleventyfromscratch.com'
-secondaryCTA:
-  title: 'This is test to see if this works'
-  summary: 'Blah blah blah no ones reads this anyway'
-  buttonText: 'Buy something please'
-  buttonUrl: 'https://www.apple.com'
+
+featuredWork:
+  title: 'Selected work'
+  summary: 'Some stuff that should give you an idea of what we’re all about.'
 ---
