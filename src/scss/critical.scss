@@ -1,3 +1,9 @@
+// First up: config and functions
+@import 'config';
+
+// Next: pull in gorko for design tokens
+@import '../../node_modules/gorko/gorko.scss';
+
 @import 'reset';
 
 // Import blocks

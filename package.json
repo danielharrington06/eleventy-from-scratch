@@ -16,6 +16,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "concurrently": "^8.2.2",
     "get-google-fonts": "^1.2.2",
+    "gorko": "^0.9.1",
     "gulp": "^5.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-imagemin": "^6.2.0",
