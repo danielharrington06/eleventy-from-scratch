@@ -21,6 +21,10 @@ module.exports = config => {
   if (isProduction) {
     config.addTransform('htmlmin', htmlMinTransform);
   }
+  else {
+    // Set directories to pass through to the dist folder
+    config.addPassthroughCopy('./src/images/');
+  }
 
   // Plugins
   config.addPlugin(rssPlugin);
