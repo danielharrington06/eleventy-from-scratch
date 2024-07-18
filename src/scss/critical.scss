@@ -80,6 +80,9 @@
 @import 'blocks/skip-link';
 @import 'blocks/cta';
 @import 'blocks/page-header';
+@import 'blocks/people';
+@import 'blocks/person';
+@import 'blocks/gallery';
 
 // Import utilities
 @import 'utilities/dot-shadow';
@@ -92,5 +95,3 @@
 @import 'utilities/wrapper';
 @import 'utilities/headline';
 @import 'utilities/auto-grid';
-@import 'blocks/people';
-@import 'blocks/person';

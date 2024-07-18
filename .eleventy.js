@@ -5,6 +5,12 @@ const w3DateFilter = require('./src/filters/w3-date-filter.js');
 
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js')
 
+// Transforms
+const htmlMinTransform = require('./src/transforms/html-min-transform.js');
+
+// Create a helpful production flag
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = config => {
 
   // Add filters
