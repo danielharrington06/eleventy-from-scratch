@@ -1,20 +1,21 @@
 .calculator {
     //height: 20rem;
     display: grid;
-    max-inline-size: 11rem;
+    display: block;
+    font-family: sans-serif;
+    max-inline-size: 22rem;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12);    
-    margin: 0 auto;
-    margin-top: 48px;
+    margin: 48px auto 0;
     
     &__output {
-        height: 5rem;
-        font-size: 2rem;
+        //height: 5rem;
+        font-size: 4rem;
         text-align: end; /* This is the Logical Property for text-align: right; and has very good browser support. */
-        background: hsl(202, 11%, 29%); /* background color */
+        background: hsl(207, 19%, 61%); /* background color */
         color: hsl(255, 100%, 100%); /* text color */
         padding-block-start: 0.25rem; /* Logical Property for padding-top */
         padding-block-end: 0.25rem; /* Logical Property for padding-bottom */
@@ -24,15 +25,25 @@
 .calculator__keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+    background: hsl(207, 19%, 61%)   
 }
 .calculator__key {
+    border: none;
+    outline: none;
+    padding-block-start: 0.5rem; /* Logical Property for padding-top */
+    padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+    padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+    padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+    font-size: 1.5rem;
 
     &--operator {
-        
+        background: hsl(208, 25%, 86%);
     }
 
     &--enter {
         grid-column: 4 /5;
         grid-row: 2 / span 4;
+        background: hsl(357, 80%, 90%);
     }
 }

@@ -25,6 +25,8 @@ module.exports = config => {
     // Set directories to pass through to the dist folder
     config.addPassthroughCopy('./src/images/');
   }
+  // For the calculator
+  config.addPassthroughCopy('./src/utils/calculator.js');
 
   // Plugins
   config.addPlugin(rssPlugin);
