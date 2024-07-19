@@ -1,0 +1,38 @@
+.calculator {
+    //height: 20rem;
+    display: grid;
+    max-inline-size: 11rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12);    
+    margin: 0 auto;
+    margin-top: 48px;
+    
+    &__output {
+        height: 5rem;
+        font-size: 2rem;
+        text-align: end; /* This is the Logical Property for text-align: right; and has very good browser support. */
+        background: hsl(202, 11%, 29%); /* background color */
+        color: hsl(255, 100%, 100%); /* text color */
+        padding-block-start: 0.25rem; /* Logical Property for padding-top */
+        padding-block-end: 0.25rem; /* Logical Property for padding-bottom */
+        padding-inline-end: 0.75rem; /* Logical Property for padding-right */
+    }
+}
+.calculator__keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.calculator__key {
+
+    &--operator {
+        
+    }
+
+    &--enter {
+        grid-column: 4 /5;
+        grid-row: 2 / span 4;
+    }
+}

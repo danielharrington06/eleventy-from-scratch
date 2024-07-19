@@ -19,6 +19,10 @@
       {
         "text": "Contact",
         "url": "/contact/"
+      },
+      {
+        "text": "Calculator",
+        "url": "/calculator/"
       }
     ]
   }

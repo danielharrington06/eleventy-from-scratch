@@ -1,0 +1,14 @@
+{% extends "layouts/base.html" %}
+{% set pageHeaderTitle = title %}
+{% set pageCriticalStyles = ['css/calculator.css'] %}
+{% block content %}
+<article>
+    {% include "partials/page-header.html" %}
+    {{content | safe}}
+    {% include "partials/calculator.html" %}
+
+    {% set cta = calculatorCTA %}
+    {% include "partials/cta.html" %}
+</article>
+
+{% endblock %}
