@@ -1,6 +1,6 @@
 # 11ty From Scratch
 
-I spent a week with a web development company in London that specialises in branding and marketting, called Dusted, for Work Experience. During this time I followed this course to make a website with nodeJS and an SSG (static site generator) called 11ty (eleventy).
+I spent a week with a web development company in London that specialises in branding and marketing, called Dusted, for Work Experience. During this time I followed this course to make a website with nodeJS and an SSG (static site generator) called 11ty (eleventy).
 
 https://learneleventyfromscratch.com/
 
